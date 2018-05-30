@@ -1,0 +1,20 @@
+<div class="customers jumbotron text-center">
+	<h1>Customers</h1>
+
+	<p>{{ message }}</p>
+
+	<table class="table">
+		<thead>
+      <tr>
+        <th>Nome</th>
+        <th>Regione</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="($index, customer) in customers" ng-click="showCustomerDetails(customer)" class="table-row-hovered">
+        <td>{{customer.nome}}</td>
+        <td>{{customer.regione}}</td>
+      </tr>
+    </tbody>
+	</table>
+</div>
