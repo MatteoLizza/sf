@@ -72,7 +72,8 @@ app.service('appService', function($http) {
     var config = {
         method: "POST",
         data: {
-            type: "GetClienti"
+            type: "GetClienti",
+            value: "0"
         },
         url: "/sirmeferroviaria/controller/GeneralController.php",
         headers: { "Content-Type": "application/x-www-form-urlencoded" }

@@ -1,7 +1,7 @@
 <?php
 
 //include
-require_once ("../config/Database.php");
+require_once ("../objects/Database.php");
 require_once ("../objects/Cliente.php");
 require_once ("../objects/Regione.php");
 
